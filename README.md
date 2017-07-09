@@ -26,8 +26,6 @@ This Boiler Plate Kit helps you get started with angular. It contains a bunch of
    1. [Getting Up and Running with Sample](#getting-started)
    1. [Renaming the App from New](/docs/renaming.md)
    1. [Routing / Navigating](/src/navigation/README.md)
-   1. [Using Google Analytics](/docs/google-analytics.md)
-   1. [Interacting with the Firebase API](https://firebase.google.com/docs/database/web/start)
    1. [Testing](/docs/testing.md)
 1. [Contributing](/docs/contributing.md)
 1. [Licence](LICENSE)
@@ -48,9 +46,7 @@ This Boiler Plate Kit helps you get started with angular. It contains a bunch of
 ## The API & testing out authentication
 We've created a quick little "API server" on [Google's Firebase Platform](https://firebase.google.com/). You can get your own API up and running within minutes too:
 
-1. Signup for a [Firebase account](https://firebase.google.com/)
-1. Create a new project - eg. "angular Starter App"
-1. Turn on email/password __Authentication__
+1. email/password __Authentication__
 
 ---
 
@@ -59,38 +55,7 @@ We've created a quick little "API server" on [Google's Firebase Platform](https:
 ```
 crowd-angular-sample-project 
 │
-└───assets
-│   │   fonts
-│   │   icons
-│   
-└───constants
-│   
-└───helpers
-│   
-└───src
-│   │   index.js
-│   │   Root.js
-│   │ 
-│   └───routes
-│       │   index.js
-│       │  
-│       commons
-│       │   index.js
-│       │ 
-│       redux
-│       │   index.js
-│       │ 
-│       screens
-│       │   index.js
-│       │ 
-│ 
-│   .babelrc
-│   .eslintrc
-│   .editorconfig
-│   App.js
-│   app.json
-│   jsconfig.json
-│   package.json
+└───Docs
 │   README.md   
 
 ```
