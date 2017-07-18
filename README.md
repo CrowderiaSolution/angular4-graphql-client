@@ -82,6 +82,34 @@ crowd-angular-sample-project
 └───node_modules
 │
 └───src
+│   │
+│   └───app
+│   │   │
+│   │   └───login
+│   │   │   │   login-routing.module.ts
+│   │   │   │   login.component.css
+│   │   │   │   login.component.html
+│   │   │   │   login.component.spec.ts
+│   │   │   │   login.component.ts
+│   │   │   │   login.module.ts
+│   │   │   app-routing.module.ts
+│   │   │   app.component.css
+│   │   │   app.component.html
+│   │   │   app.component.spec.ts
+│   │   │   app.component.ts
+│   │   │   app.module.ts
+│   └───assets
+│   │
+│   └───environments
+│   │   favicon.ico    
+│   │   index.html    
+│   │   main.ts    
+│   │   polyfills.ts    
+│   │   styles.css    
+│   │   test.ts    
+│   │   tsconfig.app.json    
+│   │   tsconfig.spec.json    
+│   │   typings.d.ts    
 │   .angular-cli.json
 │   .editorconfig
 │   .gitignore
