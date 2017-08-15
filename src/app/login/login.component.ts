@@ -16,6 +16,7 @@ import { QueryResponse } from '../../graphql/interfaces';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
+  // sample variables
   loading: boolean;
   currentUser: any;
 
